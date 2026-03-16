@@ -8,7 +8,7 @@ The application fetches products from an external API and allows users to search
 (Add your deployed link here)
 
 Example:
-https://yourusername.github.io/mini-ecommerce-store
+https://milyas1264.github.io/JS-mini-ecommerce-store/
 
 ## 📌 Features
 
