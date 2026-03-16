@@ -4,6 +4,7 @@ import { initCart } from "./cart.js";
 
 let allProducts = [];
 
+
 async function start(){
 
 initCart();

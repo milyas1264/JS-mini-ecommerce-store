@@ -5,5 +5,9 @@ export async function getProducts(){
   const data = await res.json()
  
   return data.products
+  
  
  }
+ const products = await getProducts();
+ console.log(products);
+ 
