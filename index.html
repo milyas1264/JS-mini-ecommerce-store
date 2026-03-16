@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>mini store</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Store</h1>
+
+      <input type="text" id="search" placeholder="Search product" />
+      <select id="category">
+        <option value="all">All Categories</option>
+        <option value="cosmetics">Cosmetics</option>
+        <option value="laptops">Laptops</option>
+        <option value="fragrances">Fragrances</option>
+        <option value="skincare">Skincare</option>
+        <option value="groceries">Groceries</option>
+      </select>
+      <div id="cart-count">Cart (0)</div>
+    </header>
+
+    <section>
+      <h2>Cart</h2>
+
+      <div id="cart-items"></div>
+
+      <h3 id="cart-total">Total: $0</h3>
+    </section>
+
+    <section id="products"></section>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
